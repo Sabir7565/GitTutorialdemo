@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abix Fitnees Center</title>
+</head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Roboto+Slab&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Baloo Tammudu 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        height: 1250px;
+        color: white;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 18px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 18px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(117, 117, 117);
+    }
+
+    .left img {
+        margin: 3px;
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 5px;
+        font-size: 19px;
+    }
+
+    .btn {
+        font-family: 'Baloo Tammudu 2', cursive;
+        margin: 30px 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        padding: 0px 25px;
+        border-radius: 7px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(59, 58, 58);
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 100px 35px;
+        padding: 70px;
+        width: 37%;
+        height: 25%;
+        border-radius: 30px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Tammudu 2', cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        margin: -10px;
+    }
+    .container button{
+        display: block;
+        width: 350px;
+        margin:15px auto;
+    
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>Abix Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness details</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best GYM In Delhi Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

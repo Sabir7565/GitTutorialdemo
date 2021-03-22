@@ -1,4 +1,0 @@
-This is version of my project 1
-i want to change the commit
-this is my change another content
-we have added more content in this text file.
